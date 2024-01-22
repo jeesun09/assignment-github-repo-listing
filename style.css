@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#userDiv{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.userDetails{
+    margin: 50px;
+
+}
+
+#repoList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
+    align-items: center;
+
+}
+
+
+.repos{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    margin-top: 30px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.repoName{
+    font-size: 20px;
+    font-weight: 500;
+    color: #428BCA;
+    margin: 5px;
+}
+
+.repoDescription{
+    margin: 5px;
+}
+
+.repoLanguage{
+    margin: 5px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #428BCA;
+    color: white;
+}
+
+.pagination{
+    display: flex;
+    gap: 0px;
+}
+
+#githubLink{
+    font-style: normal;
+} 
+.gLink{
+    margin-left: 50px;
+    font-weight: 700;
+}
