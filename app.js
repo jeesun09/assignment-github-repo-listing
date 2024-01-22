@@ -1,7 +1,7 @@
 var length;
 
 async function getData(){
-    const userName = 'johnpapa';
+    const userName = 'jeesun09';
 
     const url = `https://api.github.com/users/${userName}/repos`;
 
@@ -39,7 +39,7 @@ for(let i=1; i<=length; i++){
 
 
 async function userData() {
-    const userName = 'johnpapa';
+    const userName = 'jeesun09';
     const url = `https://api.github.com/users/${userName}`;
 
     fetch(url)
